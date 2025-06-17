@@ -1,0 +1,58 @@
+body {
+    background-color: #fafafa; /* Define a cor de fundo da página */
+    padding: 20px; /* Adiciona espaçamento interno em volta do conteúdo */
+    text-align: center; /* Centraliza o texto dentro do body */
+    background-color: #f8f2f2;
+    }
+
+
+    h1 {
+    color: palevioletred;; /* Define a cor do texto do título (h1) */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    }
+
+
+
+
+
+
+    table {
+    width: 90%; /* Faz a tabela ocupar 90% da largura da página */
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+    }
+
+
+    th, td {
+    padding: 10px; /* Adiciona espaço interno nas células (th e td) */
+    border: 1px solid #ccc; /* Coloca uma borda cinza clara nas células */
+    }
+
+
+    th {
+    background-color: rgb(241, 155, 169); /* Define uma cor de fundo mais clara para o cabeçalho da tabela */
+    }
+   
+    button {
+        border-radius: 10px;
+        border: 1px solid rgb(241, 155, 169);
+        color: white;
+        width: 10%;
+        background-color: rgb(241, 155, 169);
+        text-align: center;
+        margin-top: 20px;
+        height: 40px;
+        font-size: 15px;
+       
+    }
+
+
+    tr:nth-child(even) {
+        background-color: #f8eaea; /* Cinza claro */
+      }
+
+
+    button:hover {
+        background-color: #dd8cc4;
+    }
+   
